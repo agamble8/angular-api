@@ -1,5 +1,5 @@
-<div *ngFor="let movie of movies">
 <h1>Movies!</h1>
+<div *ngFor="let movie of movies">
 <h3>{{ movie.title }}</h3>
 <p><img src="http://image.tmdb.org/t/p/w300/{{ movie.poster_path }}" /></p>
 <input type="checkbox" value="{{ movie.id }}" />
