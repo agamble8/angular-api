@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { NewsComponent } from './news/news.component';
 import { WeatherComponent } from './weather/weather.component';
 import { SharpComponent } from './sharp/sharp.component';
+import { MoviesComponent } from './movies/movies.component';
+import { CountdownComponent } from './countdown/countdown.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewsComponent,
     WeatherComponent,
-    SharpComponent
+    SharpComponent,
+    MoviesComponent,
+    CountdownComponent
   ],
   imports: [
     BrowserModule,

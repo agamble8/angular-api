@@ -1,0 +1,6 @@
+<h1>Movies!</h1>
+<div *ngFor="let movie of movies">
+    <h2>{{movie.original_title}}</h2>
+    <p><img src="http://image.tmdb.org/t/p/w300/{{ movie.poster_path }}" /></p>
+    <p><input type='checkbox' value='{{movie.id}}' /> Check here to add to your watchlist.</p>
+</div>

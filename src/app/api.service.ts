@@ -19,6 +19,10 @@ export class ApiService {
   public getSharp() {
     return this.httpClient.get('https://localhost:44300/weatherforecast');
   }
+
+  public getMovies() {
+    return this.httpClient.get('https://api.themoviedb.org/3/discover/movie?api_key=8635a9331ce7ad7cbe506004d34f79e9')
+  }
 }
 
 // ng generate service [name]

@@ -12,10 +12,11 @@ export class SharpComponent implements OnInit {
   constructor(private apiService: ApiService) { }
 
   ngOnInit(): void {
-    this.apiService.getSharp().subscribe((data)=>{
-      console.log(data);
-      this.sharp = data['sharp']
-    })
-  }
+    // this.apiService.getSharp().subscribe((data)=>{
+      // console.log(data);
+      // this.sharp = data['sharp']
+    // });
+
+      }
 
 }

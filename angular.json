@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ang-news-weather-three"
+    }
+  },
+  "defaultProject": "ang-news-weather-three",
+  "cli": {
+    "analytics": false
+  }
 }
